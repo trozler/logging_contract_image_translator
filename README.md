@@ -17,7 +17,13 @@ If you want to deploy you need to create a `.env` file add the following:
 
 ```
 INFURA_API_KEY=XXXXXXXXXXXXXXXX
-MNEMONIC=ice kitten symbol laughing banana liquid nominee dust call boring unlock make survey myself embrace soap series thing wedding badge cement strike smell rib
+MNEMONIC= <phrase>
+```
+
+Examples of mnemonic phrases are:
+
+```
+ice kitten symbol laughing banana liquid nominee dust call boring unlock make survey myself embrace soap series thing wedding badge cement strike smell rib
 ```
 
 ### Pre Requisites
