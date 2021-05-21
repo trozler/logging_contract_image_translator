@@ -28,7 +28,7 @@ describe("Unit tests", function () {
 
       await expect(await this.logger.connect(this.signers.admin).logRequest(start, end))
         .to.emit(this.logger, "LogTransaction")
-        .withArgs(start, end);
+        .withArgs(await this.signers.admin.getAddress(), start, end);
     });
   });
 });
